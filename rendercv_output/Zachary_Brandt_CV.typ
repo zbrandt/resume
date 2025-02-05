@@ -460,16 +460,18 @@
   left-content: [
     #strong[University of California, Berkeley]
 
-BA in Economics, Computer Science
+#emph[B.A. in Economics, Computer Science]
   ],
   right-content: [
-    present – May 2027
+    Expected Graduation
+
+#emph[Spring 2027]
   ],
 )
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([GPA: 3.9/4.0],[#strong[Coursework]: Data Structures, Econometrics, Discrete Math],)
+    #v(design-highlights-top-margin);#highlights([GPA: 3.9/4.0],[Awards: Dean's Honors List - College of Letters & Science],[#strong[Coursework]: Discrete Mathematics, Data Structures, Econometrics],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -485,17 +487,15 @@ BA in Economics, Computer Science
   left-content: [
     #strong[Stanford, Berkeley Dept. of Economics]
 
-Research Assistant
+#emph[Research Assistant]
   ],
   right-content: [
-    Stanford, CA
-
-Feb 2024 – Aug 2024
+    #emph[Feb 2024 – Aug 2024]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Conducted labor economics research focused on estimating firm market power],[Worked with large employment datasets from LinkedIn, Equifax, and Revelio to analyze labor market movements, using R for data wrangling, visualization, and analysis],[Applied academic insights from literature review of Monopsony theory into real-world data analysis],)
+    #v(design-highlights-top-margin);#highlights([Conducted econometric analysis and research on estimating cross-sector firm market power],[Led data wrangling, EDA, and visualization using Pandas and R on national employment datasets],[Contributed insights to burgeoning literature on industrial organization and economic policy discussions],)
   ],
 )
 
@@ -504,17 +504,15 @@ Feb 2024 – Aug 2024
   left-content: [
     #strong[Blockchain at Berkeley]
 
-Project Manager
+#emph[Project Manager]
   ],
   right-content: [
-    #link("https://berkeley.blockchain.edu")[blockchain.berkeley.edu]
-
-Sept 2023 – present
+    #emph[Sept 2023 – present]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Created an NFT ticket marketplace with FIFA Labs, developed a TypeScript VM for writing smart contracts on Hyperweb],[Built a prize-winning Telegram blockchain client at the 2024 Consensus hackathon],[Submitted grants and RFPs to companies to lead future projects],)
+    #v(design-highlights-top-margin);#highlights([Led teams in developing a ticket marketplace for FIFA and a JavaScript VM for Hyperweb Web3],[Secured projects by writing grants and responding to RFPs, growing our presence in blockchain],[Oversaw project completion, timelines, deliverables, and client communication],)
   ],
 )
 
@@ -523,17 +521,15 @@ Sept 2023 – present
   left-content: [
     #strong[Worksheets AI]
 
-Summer Intern
+#emph[Summer Intern]
   ],
   right-content: [
-    #link("https://www.worksheets.ai/")[worksheets.ai]
-
-June 2024 – Aug 2024
+    #emph[June 2024 – Aug 2024]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed a customer-facing interface in SolidJS, enabling educators to access a marketplace of AI-generated worksheets],[Built a creator-facing interface for personalized worksheet generation from scratch or templates],[Integrated frontend and backend services as part of a REST API],)
+    #v(design-highlights-top-margin);#highlights([Built and deployed core frontend web app in SolidJS and implemented backend APIs with Node.js],[Designed and integrated AI-powered worksheet generation tools and markets for educators],[Worked closely with the founding team on scaling the platform in the EdTech space],)
   ],
 )
 
@@ -543,41 +539,45 @@ June 2024 – Aug 2024
 
 #two-col-entry(
   left-content: [
-    #link("https://example.com")[#strong[NGordnet Tool]]
+    #strong[ΑΓΩ Beta Treasurer]
   ],
   right-content: [
-    Fall 2024
+    #emph[Fall 2024 - present]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Developed a linguistic analysis tool using WordNet and historical word frequency data],[visualize language trends and explore synset relationships],)
+    #v(design-highlights-top-margin);#highlights([Upgraded fraternity house network and internet, created our new #link("https://berkeley.ago.org")[website]],[Managed financial operations, including budgeting, rent and vendor contracts, and banking],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
 #two-col-entry(
   left-content: [
-    #link("https://example.com")[#strong[World-Exploration Game Engine]]
+    #strong[NGordnet Tool]
   ],
   right-content: [
-    Fall 2024
+    #emph[Fall 2024]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Created a 2D tile-based world exploration engine with save game functionality],)
+    #v(design-highlights-top-margin);#highlights([Developed a linguistic analysis tool leveraging WordNet and historical word frequency data],[Built visualizations to explore synset relationships and language evolution],)
   ],
 )
 
 #v(design-entries-vertical-space-between-entries)
-
+#two-col-entry(
+  left-content: [
+    #strong[World-Exploration Game Engine]
+  ],
+  right-content: [
+    #emph[Fall 2024]
+  ],
+)
 #one-col-entry(
   content: [
-    #strong[AΓΩ Beta Network]
-
-    #v(-design-text-leading)
-    #v(design-highlights-top-margin);#highlights([Configured my fraternity chapter's new internet service and home network],[Created and hosted our new website],)
+    #v(design-highlights-top-margin);#highlights([Created a modular and extensible 2D tile-based world exploration engine in Java],)
   ],
 )
 
@@ -587,12 +587,12 @@ June 2024 – Aug 2024
     #strong[Berkeley SkyDeck]
   ],
   right-content: [
-    Summer 2024
+    #emph[Summer 2024]
   ],
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Built a mobile, instant sales and delivery marketplace for on-the-go college students],[Applied through the SkyDeck Accelerator Program to pitch to investors],)
+    #v(design-highlights-top-margin);#highlights([Co-developed a mobile recommerce platform with instant sales for college students],[Guided team application through the SkyDeck Accelerator Program to pitch to investors],)
   ],
 )
 
@@ -602,6 +602,10 @@ June 2024 – Aug 2024
 
 #one-col-entry(
   content: [#strong[Programming:] Python, Java, JavaScript, R, Solidity, SQL]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Mathematics:] Multivariable calculus, linear algebra, differential equations, statistics, probability]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(

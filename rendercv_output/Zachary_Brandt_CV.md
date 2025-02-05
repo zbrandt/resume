@@ -9,11 +9,12 @@
 
 # Education
 
-## University of California, Berkeley, BA in Economics, Computer Science
+## University of California, Berkeley, B.A. in Economics, Computer Science
 
-- present – May 2027
+- Spring 2027
 - GPA: 3.9/4.0
-- **Coursework**: Data Structures, Econometrics, Discrete Math
+- Awards: Dean's Honors List - College of Letters & Science
+- **Coursework**: Discrete Mathematics, Data Structures, Econometrics
 
 # Experience
 
@@ -21,51 +22,53 @@
 
 - Feb 2024 – Aug 2024
 - Stanford, CA
-- Conducted labor economics research focused on estimating firm market power
-- Worked with large employment datasets from LinkedIn, Equifax, and Revelio to analyze labor market movements, using R for data wrangling, visualization, and analysis
-- Applied academic insights from literature review of Monopsony theory into real-world data analysis
+- Conducted econometric analysis and research on estimating cross-sector firm market power
+- Led data wrangling, EDA, and visualization using Pandas and R on national employment datasets
+- Contributed insights to burgeoning literature on industrial organization and economic policy discussions
 
 ## Blockchain at Berkeley, Project Manager
 
 - Sept 2023 – present
 - [blockchain.berkeley.edu](https://berkeley.blockchain.edu)
-- Created an NFT ticket marketplace with FIFA Labs, developed a TypeScript VM for writing smart contracts on Hyperweb
-- Built a prize-winning Telegram blockchain client at the 2024 Consensus hackathon
-- Submitted grants and RFPs to companies to lead future projects
+- Led teams in developing a ticket marketplace for FIFA and a JavaScript VM for Hyperweb Web3
+- Secured projects by writing grants and responding to RFPs, growing our presence in blockchain
+- Oversaw project completion, timelines, deliverables, and client communication
 
 ## Worksheets AI, Summer Intern
 
 - June 2024 – Aug 2024
 - [worksheets.ai](https://www.worksheets.ai/)
-- Developed a customer-facing interface in SolidJS, enabling educators to access a marketplace of AI-generated worksheets
-- Built a creator-facing interface for personalized worksheet generation from scratch or templates
-- Integrated frontend and backend services as part of a REST API
+- Built and deployed core frontend web app in SolidJS and implemented backend APIs with Node.js
+- Designed and integrated AI-powered worksheet generation tools and markets for educators
+- Worked closely with the founding team on scaling the platform in the EdTech space
 
 # Projects
 
-## [NGordnet Tool](https://example.com)
+## ΑΓΩ Beta Treasurer
+
+- Fall 2024 - present
+- Upgraded fraternity house network and internet, created our new [website](https://berkeley.ago.org)
+- Managed financial operations, including budgeting, rent and vendor contracts, and banking
+
+## NGordnet Tool
 
 - Fall 2024
-- Developed a linguistic analysis tool using WordNet and historical word frequency data
-- visualize language trends and explore synset relationships
+- Developed a linguistic analysis tool leveraging WordNet and historical word frequency data
+- Built visualizations to explore synset relationships and language evolution
 
-## [World-Exploration Game Engine](https://example.com)
+## World-Exploration Game Engine
 
 - Fall 2024
-- Created a 2D tile-based world exploration engine with save game functionality
-
-## AΓΩ Beta Network
-
-- Configured my fraternity chapter's new internet service and home network
-- Created and hosted our new website
+- Created a modular and extensible 2D tile-based world exploration engine in Java
 
 ## Berkeley SkyDeck
 
 - Summer 2024
-- Built a mobile, instant sales and delivery marketplace for on-the-go college students
-- Applied through the SkyDeck Accelerator Program to pitch to investors
+- Co-developed a mobile recommerce platform with instant sales for college students
+- Guided team application through the SkyDeck Accelerator Program to pitch to investors
 
 # Skills
 
 - Programming: Python, Java, JavaScript, R, Solidity, SQL
+- Mathematics: Multivariable calculus, linear algebra, differential equations, statistics, probability
 - Languages: English, German (fluent, C2 certified)

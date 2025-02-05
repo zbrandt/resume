@@ -9,22 +9,15 @@ cv:
     - network: GitHub
       username: zbrandt
   sections:
-    # welcome_to_RenderCV!:
-    #   - '[RenderCV](https://rendercv.com) is a Typst-based CV
-    #     framework designed for academics and engineers, with Markdown
-    #     syntax support.'
-    #   - Each section title is arbitrary. Each section contains
-    #     a list of entries, and there are 7 different entry types
-    #     to choose from.
     education:
       - institution: University of California, Berkeley
         area: Economics, Computer Science
-        degree: BA
-        start_date: present
-        end_date: 2027-05
+        degree: B.A.
+        date: 'Spring 2027'
         highlights:
           - 'GPA: 3.9/4.0'
-          - '**Coursework**: Data Structures, Econometrics, Discrete Math'
+          - "Awards: Dean's Honors List - College of Letters & Science"
+          - '**Coursework**: Discrete Mathematics, Data Structures, Econometrics'
     experience:
       - company: Stanford, Berkeley Dept. of Economics
         position: Research Assistant
@@ -32,59 +25,55 @@ cv:
         start_date: 2024-02
         end_date: 2024-08
         highlights:
-          - Conducted labor economics research focused on estimating firm market power
-          - Worked with large employment datasets from LinkedIn,
-            Equifax, and Revelio to analyze labor market movements, using R for data wrangling, visualization, and analysis
-          - Applied academic insights from literature review of Monopsony theory into real-world data analysis
+          - Conducted econometric analysis and research on estimating cross-sector firm market power
+          - Led data wrangling, EDA, and visualization using Pandas and R on national employment datasets
+          - Contributed insights to burgeoning literature on industrial organization and economic policy discussions
       - company: Blockchain at Berkeley
         position: Project Manager
         location: '[blockchain.berkeley.edu](https://berkeley.blockchain.edu)'
         start_date: 2023-09
         end_date: present
         highlights:
-          - Created an NFT ticket marketplace with FIFA Labs, developed a TypeScript VM for writing smart contracts on Hyperweb
-          - Built a prize-winning Telegram blockchain client at the 2024 Consensus hackathon
-          - Submitted grants and RFPs to companies to lead future projects 
+          - Led teams in developing a ticket marketplace for FIFA and a JavaScript VM for Hyperweb Web3
+          - Secured projects by writing grants and responding to RFPs, growing our presence in blockchain
+          - Oversaw project completion, timelines, deliverables, and client communication
       - company: Worksheets AI
         position: Summer Intern
         location: '[worksheets.ai](https://www.worksheets.ai/)'
         start_date: 2024-06
         end_date: 2024-08
         highlights:
-          - Developed a customer-facing interface in SolidJS, enabling educators to access a marketplace of AI-generated worksheets
-          - Built a creator-facing interface for personalized worksheet generation from scratch or templates
-          - Integrated frontend and backend services as part of a REST API
+          - Built and deployed core frontend web app in SolidJS and implemented backend APIs with Node.js 
+          - Designed and integrated AI-powered worksheet generation tools and markets for educators
+          - Worked closely with the founding team on scaling the platform in the EdTech space
     projects:
-      - name: '[NGordnet Tool](https://example.com)'
+      - name: ΑΓΩ Beta Treasurer
+        date: Fall 2024 - present
+        highlights: 
+          - Upgraded fraternity house network and internet, created our new [website](https://berkeley.ago.org)
+          - Managed financial operations, including budgeting, rent and vendor contracts, and banking
+      - name: NGordnet Tool
         date: Fall 2024
         highlights:
-          - Developed a linguistic analysis tool using WordNet and historical word frequency data
-          - visualize language trends and explore synset relationships
-      - name: '[World-Exploration Game Engine](https://example.com)'
+          - Developed a linguistic analysis tool leveraging WordNet and historical word frequency data
+          - Built visualizations to explore synset relationships and language evolution
+      - name: World-Exploration Game Engine
         date: Fall 2024
         end_date: present
         highlights:
-          - Created a 2D tile-based world exploration engine with save game functionality
-      - name: AΓΩ Beta Network
-        highlights: 
-          - Configured my fraternity chapter's new internet service and home network
-          - Created and hosted our new website
+          - Created a modular and extensible 2D tile-based world exploration engine in Java
       - name: 'Berkeley SkyDeck'
         date: Summer 2024
         highlights:
-          - Built a mobile, instant sales and delivery marketplace for on-the-go college students
-          - Applied through the SkyDeck Accelerator Program to pitch to investors
+          - Co-developed a mobile recommerce platform with instant sales for college students
+          - Guided team application through the SkyDeck Accelerator Program to pitch to investors
     skills:
       - label: Programming
         details: Python, Java, JavaScript, R, Solidity, SQL
+      - label: Mathematics
+        details: Multivariable calculus, linear algebra, differential equations, statistics, probability
       - label: Languages
         details: 'English, German (fluent, C2 certified)'
-    # extracurricular_activities:
-    #   - bullet: 'There are 7 unique entry types in RenderCV: *BulletEntry*,
-    #       *TextEntry*, *EducationEntry*, *ExperienceEntry*, *NormalEntry*,
-    #       *PublicationEntry*, and *OneLineEntry*.'
-    #   - bullet: Each entry type has a different structure and
-    #       layout. This document demonstrates all of them.
 design:
   theme: sb2nov
   page:
@@ -95,49 +84,49 @@ design:
     right_margin: 2cm
     show_page_numbering: true
     show_last_updated_date: true
-  # colors:
-  #   text: black
-  #   name: black
-  #   connections: black
-  #   section_titles: black
-  #   links: '#004f90'
-  #   last_updated_date_and_page_numbering: grey
+  colors:
+    text: black
+    name: black
+    connections: black
+    section_titles: black
+    links: '#004f90'
+    last_updated_date_and_page_numbering: grey
   text:
     font_family: New Computer Modern
     font_size: 10pt
     leading: 0.6em
     alignment: justified
     date_and_location_column_alignment: right
-  # links:
-  #   underline: false
-  #   use_external_link_icon: true
-  # header:
-  #   name_font_size: 30pt
-  #   name_bold: true
-  #   photo_width: 3.5cm
-  #   vertical_space_between_name_and_connections: 0.7cm
-  #   vertical_space_between_connections_and_first_section: 0.7cm
-  #   horizontal_space_between_connections: 0.5cm
-  #   separator_between_connections: ''
-  #   use_icons_for_connections: true
-  #   alignment: center
-  # section_titles:
-  #   type: with-parial-line
-  #   font_size: 1.4em
-  #   bold: true
-  #   small_caps: false
-  #   line_thickness: 0.5pt
-  #   vertical_space_above: 0.5cm
-  #   vertical_space_below: 0.3cm
-  #   line_type: with-full-line
-  # entries:
-  #   date_and_location_width: 4.15cm
-  #   left_and_right_margin: 0.2cm
-  #   horizontal_space_between_columns: 0.1cm
-  #   vertical_space_between_entries: 1.2em
-  #   allow_page_break_in_entries: true
-  #   short_second_row: false
-  #   show_time_spans_in: []
+  links:
+    underline: false
+    use_external_link_icon: true
+  header:
+    name_font_size: 30pt
+    name_bold: true
+    photo_width: 3.5cm
+    vertical_space_between_name_and_connections: 0.7cm
+    vertical_space_between_connections_and_first_section: 0.7cm
+    horizontal_space_between_connections: 0.5cm
+    separator_between_connections: ''
+    use_icons_for_connections: true
+    alignment: center
+  section_titles:
+    type: with-parial-line
+    font_size: 1.4em
+    bold: true
+    small_caps: false
+    line_thickness: 0.5pt
+    vertical_space_above: 0.5cm
+    vertical_space_below: 0.3cm
+    line_type: with-full-line
+  entries:
+    date_and_location_width: 4.15cm
+    left_and_right_margin: 0.2cm
+    horizontal_space_between_columns: 0.1cm
+    vertical_space_between_entries: 1.2em
+    allow_page_break_in_entries: true
+    short_second_row: false
+    show_time_spans_in: []
   highlights:
     bullet: ◦
     top_margin: 0.25cm
@@ -149,18 +138,20 @@ design:
     one_line_entry:
       template: '**LABEL:** DETAILS'
     education_entry:
-      main_column_first_row_template: "**INSTITUTION**\nDEGREE in AREA"
+      main_column_first_row_template: "**INSTITUTION**\n*DEGREE in AREA*"
       degree_column_width: 1cm
       main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
-      date_and_location_column_template: "DATE"
+      date_and_location_column_template: "Expected Graduation\n*DATE*"
     normal_entry:
       main_column_first_row_template: '**NAME**'
       main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
-      date_and_location_column_template: "*LOCATION*\nDATE"
+      date_and_location_column_template: "*LOCATION*\n*DATE*"
     experience_entry:
-      main_column_first_row_template: "**COMPANY**\nPOSITION"
+      # main_column_first_row_template: "**POSITION**\n*COMPANY*"
+      main_column_first_row_template: "**COMPANY**\n*POSITION*"
       main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
-      date_and_location_column_template: "LOCATION\nDATE"
+      # date_and_location_column_template: "*LOCATION*\n*DATE*"
+      date_and_location_column_template: "*DATE*"
     publication_entry:
       main_column_first_row_template: '**TITLE**'
       main_column_second_row_template: "AUTHORS\nURL (JOURNAL)"
@@ -172,7 +163,8 @@ design:
 locale:
   language: en
   phone_number_format: national
-  page_numbering_template: ""
+  # page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
+  page_numbering_template: ''
   last_updated_date_template: Last updated in TODAY
   date_template: MONTH_ABBREVIATION YEAR
   month: month
@@ -208,5 +200,5 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-02-02'
+  date: '2025-02-04'
   bold_keywords: []
