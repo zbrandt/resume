@@ -471,7 +471,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([GPA: 3.9/4.0],[Awards: Dean's Honors List - College of Letters & Science],[#strong[Coursework]: Discrete Mathematics, Data Structures, Econometrics],)
+    #v(design-highlights-top-margin);#highlights([GPA: 3.9/4.0],[Awards: Dean's Honors List - College of Letters & Science],[#strong[Coursework]: Discrete Mathematics, Data Structures, Econometrics, Ancient Greek Studies],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -547,7 +547,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Upgraded fraternity house network and internet, created our new #link("https://berkeley.ago.org")[website]],[Managed financial operations, including budgeting, rent and vendor contracts, and banking],)
+    #v(design-highlights-top-margin);#highlights([Upgraded fraternity house network and internet, created our new #link("https://zbrandt.github.io/ago/")[website]],[Managed financial operations, including budgeting, rent and vendor contracts, and banking],)
   ],
 )
 
@@ -605,7 +605,7 @@
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Mathematics:] Multivariable calculus, linear algebra, differential equations, statistics, probability]
+  content: [#strong[Mathematics:] Multivariable calculus, linear algebra, differential equations, probability theory]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(

@@ -17,7 +17,7 @@ cv:
         highlights:
           - 'GPA: 3.9/4.0'
           - "Awards: Dean's Honors List - College of Letters & Science"
-          - '**Coursework**: Discrete Mathematics, Data Structures, Econometrics'
+          - '**Coursework**: Discrete Mathematics, Data Structures, Econometrics, Ancient Greek Studies'
     experience:
       - company: Stanford, Berkeley Dept. of Economics
         position: Research Assistant
@@ -50,7 +50,7 @@ cv:
       - name: ΑΓΩ Beta Treasurer
         date: Fall 2024 - present
         highlights: 
-          - Upgraded fraternity house network and internet, created our new [website](https://berkeley.ago.org)
+          - Upgraded fraternity house network and internet, created our new [website](https://zbrandt.github.io/ago/)
           - Managed financial operations, including budgeting, rent and vendor contracts, and banking
       - name: NGordnet Tool
         date: Fall 2024
@@ -71,7 +71,7 @@ cv:
       - label: Programming
         details: Python, Java, JavaScript, R, Solidity, SQL
       - label: Mathematics
-        details: Multivariable calculus, linear algebra, differential equations, statistics, probability
+        details: Multivariable calculus, linear algebra, differential equations, probability theory
       - label: Languages
         details: 'English, German (fluent, C2 certified)'
 design:

@@ -14,7 +14,7 @@
 - Spring 2027
 - GPA: 3.9/4.0
 - Awards: Dean's Honors List - College of Letters & Science
-- **Coursework**: Discrete Mathematics, Data Structures, Econometrics
+- **Coursework**: Discrete Mathematics, Data Structures, Econometrics, Ancient Greek Studies
 
 # Experience
 
@@ -47,7 +47,7 @@
 ## ΑΓΩ Beta Treasurer
 
 - Fall 2024 - present
-- Upgraded fraternity house network and internet, created our new [website](https://berkeley.ago.org)
+- Upgraded fraternity house network and internet, created our new [website](https://zbrandt.github.io/ago/)
 - Managed financial operations, including budgeting, rent and vendor contracts, and banking
 
 ## NGordnet Tool
@@ -70,5 +70,5 @@
 # Skills
 
 - Programming: Python, Java, JavaScript, R, Solidity, SQL
-- Mathematics: Multivariable calculus, linear algebra, differential equations, statistics, probability
+- Mathematics: Multivariable calculus, linear algebra, differential equations, probability theory
 - Languages: English, German (fluent, C2 certified)
