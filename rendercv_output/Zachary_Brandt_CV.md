@@ -47,7 +47,7 @@
 ## ΑΓΩ Beta Treasurer
 
 - Fall 2024 - present
-- Upgraded fraternity house network and internet, created our new [website](https://zbrandt.github.io/ago/)
+- Upgraded fraternity house network and internet, created our new website
 - Managed financial operations, including budgeting, rent and vendor contracts, and banking
 
 ## NGordnet Tool

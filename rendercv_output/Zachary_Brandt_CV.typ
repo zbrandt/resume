@@ -547,7 +547,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Upgraded fraternity house network and internet, created our new #link("https://zbrandt.github.io/ago/")[website]],[Managed financial operations, including budgeting, rent and vendor contracts, and banking],)
+    #v(design-highlights-top-margin);#highlights([Upgraded fraternity house network and internet, created our new website],[Managed financial operations, including budgeting, rent and vendor contracts, and banking],)
   ],
 )
 
