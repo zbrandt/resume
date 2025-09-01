@@ -13,7 +13,8 @@ cv:
       - institution: University of California, Berkeley
         area: Economics, Computer Science
         degree: B.A.
-        date: 'Spring 2027'
+        start_date: 2023-08
+        end_date:  2027-06
         highlights:
           - 'GPA: 3.9/4.0'
           - "Awards: Dean's Honors List - College of Letters & Science"
@@ -69,11 +70,11 @@ cv:
           - Guided team application through the SkyDeck Accelerator Program to pitch to investors
     skills:
       - label: Programming
-        details: Python, Java, JavaScript, R, Solidity, SQL
+        details: C, Python, Java, JavaScript, R, Solidity, SQL
       - label: Mathematics
         details: Multivariable calculus, linear algebra, differential equations, probability theory
       - label: Languages
-        details: 'English, German (fluent, C2 certified)'
+        details: 'English, German (fluent, C2 certified), Greek'
 design:
   theme: sb2nov
   page:
@@ -82,7 +83,7 @@ design:
     bottom_margin: 2cm
     left_margin: 2cm
     right_margin: 2cm
-    show_page_numbering: true
+    show_page_numbering: false
     show_last_updated_date: true
   colors:
     text: black
@@ -141,7 +142,7 @@ design:
       main_column_first_row_template: "**INSTITUTION**\n*DEGREE in AREA*"
       degree_column_width: 1cm
       main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
-      date_and_location_column_template: "Expected Graduation\n*DATE*"
+      date_and_location_column_template: "*DATE*"
     normal_entry:
       main_column_first_row_template: '**NAME**'
       main_column_second_row_template: "SUMMARY\nHIGHLIGHTS"
@@ -163,8 +164,7 @@ design:
 locale:
   language: en
   phone_number_format: national
-  # page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
-  page_numbering_template: ''
+  page_numbering_template: NAME - Page PAGE_NUMBER of TOTAL_PAGES
   last_updated_date_template: Last updated in TODAY
   date_template: MONTH_ABBREVIATION YEAR
   month: month
@@ -200,5 +200,6 @@ locale:
     - November
     - December
 rendercv_settings:
-  date: '2025-02-04'
+  date: '2025-08-31'
+  render_command:
   bold_keywords: []

@@ -11,7 +11,7 @@
 
 ## University of California, Berkeley, B.A. in Economics, Computer Science
 
-- Spring 2027
+- Aug 2023 – June 2027
 - GPA: 3.9/4.0
 - Awards: Dean's Honors List - College of Letters & Science
 - **Coursework**: Discrete Mathematics, Data Structures, Econometrics, Ancient Greek Studies
@@ -69,6 +69,6 @@
 
 # Skills
 
-- Programming: Python, Java, JavaScript, R, Solidity, SQL
+- Programming: C, Python, Java, JavaScript, R, Solidity, SQL
 - Mathematics: Multivariable calculus, linear algebra, differential equations, probability theory
-- Languages: English, German (fluent, C2 certified)
+- Languages: English, German (fluent, C2 certified), Greek
