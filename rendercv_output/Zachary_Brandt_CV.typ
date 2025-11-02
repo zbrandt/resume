@@ -6,7 +6,6 @@
 #let locale-catalog-last-updated-date-style = "Last updated in Aug 2025"
 #let locale-catalog-language = "en"
 #let design-page-size = "us-letter"
-#let design-section-titles-font-size = 1.4em
 #let design-colors-text = rgb(0, 0, 0)
 #let design-colors-section-titles = rgb(0, 0, 0)
 #let design-colors-last-updated-date-and-page-numbering = rgb(128, 128, 128)
@@ -17,7 +16,7 @@
 #let design-section-titles-bold = true
 #let design-section-titles-line-thickness = 0.5pt
 #let design-section-titles-font-size = 1.4em
-#let design-section-titles-type = "with-parial-line"
+#let design-section-titles-type = "with-partial-line"
 #let design-section-titles-vertical-space-above = 0.5cm
 #let design-section-titles-vertical-space-below = 0.3cm
 #let design-section-titles-small-caps = false
@@ -32,6 +31,7 @@
 #let design-header-name-font-family = "New Computer Modern"
 #let design-header-name-font-size = 30pt
 #let design-header-name-bold = true
+#let design-header-small-caps-for-name = false
 #let design-header-connections-font-family = "New Computer Modern"
 #let design-header-vertical-space-between-name-and-connections = 0.7cm
 #let design-header-vertical-space-between-connections-and-first-section = 0.7cm
@@ -41,6 +41,7 @@
 #let design-header-alignment = center
 #let design-highlights-summary-left-margin = 0cm
 #let design-highlights-bullet = "◦"
+#let design-highlights-nested-bullet = "-"
 #let design-highlights-top-margin = 0.25cm
 #let design-highlights-left-margin = 0.4cm
 #let design-highlights-vertical-space-between-highlights = 0.25cm
@@ -125,13 +126,22 @@
   )
 }
 #show list: set list(
-  marker: design-highlights-bullet,
-  spacing: 0pt,
+  marker: design-highlights-nested-bullet,
+  spacing: design-highlights-vertical-space-between-highlights,
   indent: 0pt,
   body-indent: design-highlights-horizontal-space-between-bullet-and-highlights,
 )
 
 // Entry utilities:
+#let bullet-entry(..content) = {
+  list(
+    ..content,
+    marker: design-highlights-bullet,
+    spacing: 0pt,
+    indent: 0pt,
+    body-indent: design-highlights-horizontal-space-between-bullet-and-highlights,
+  )
+}
 #let three-col(
   left-column-width: 1fr,
   middle-column-width: 1fr,
@@ -192,7 +202,11 @@
     size: design-header-name-font-size,
     fill: design-colors-name,
   )
-  #it.body
+  #if design-header-small-caps-for-name [
+    #smallcaps(it.body)
+  ] else [
+    #it.body
+  ]
   // Vertical space after the name
   #v(design-header-vertical-space-between-name-and-connections)
 ]
@@ -243,7 +257,7 @@
         #box(
           [
             #section-title
-            #if design-section-titles-type == "with-parial-line" [
+            #if design-section-titles-type == "with-partial-line" [
               #box(width: 1fr, height: design-section-titles-line-thickness, fill: design-colors-section-titles)
             ] else if design-section-titles-type == "with-full-line" [
 
@@ -478,7 +492,7 @@
 #block(
   [
     #set par(spacing: 0pt)
-    #v(design-highlights-top-margin);#highlights([GPA: 3.9\/4.0],[Awards: Dean's Honors List - College of Letters & Science],[#strong[Coursework]: Discrete Mathematics, Data Structures, Econometrics, Ancient Greek Studies],)
+    #v(design-highlights-top-margin);#highlights([GPA: 3.9\/4.0],[Awards: Dean's Honors List -- College of Letters & Science],[#strong[Coursework]: Machine Learning, Efficient Algorithms, Artificial Intelligence, Computer Architecture, Discrete Mathematics, Data Structures, Algorithmic Economics, Econometrics, Ancient Greek],)
   ],
   inset: (
     left: design-entries-left-and-right-margin,
@@ -520,7 +534,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Led teams in developing a ticket marketplace for FIFA and a JavaScript VM for Hyperweb Web3],[Secured projects by writing grants and responding to RFPs, growing our presence in blockchain],[Oversaw project completion, timelines, deliverables, and client communication],)
+    #v(design-highlights-top-margin);#highlights([Led teams in developing a ticket marketplace for FIFA, a JavaScript VM for Hyperweb, and Axelar full-stack],[Secured projects by writing grants and responding to RFPs, growing our presence in blockchain],[Oversaw project management, SDLC, DevOps, deliverables, and client communication],)
   ],
 )
 
@@ -548,7 +562,7 @@
 
 #two-col-entry(
   left-content: [
-    #strong[ΑΓΩ Beta Treasurer]
+    #strong[ΑΓΩ Beta Vice President]
   ],
   right-content: [
     #emph[Fall 2024 - present]
@@ -556,7 +570,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Upgraded fraternity house network and internet, created our new website],[Managed financial operations, including budgeting, rent and vendor contracts, and banking],)
+    #v(design-highlights-top-margin);#highlights([Upgraded fraternity house network and internet, created our new website],[Managed financial operations, including >\$70,0000 in budgeting, rent, contracting, and banking],)
   ],
 )
 
@@ -601,7 +615,7 @@
 )
 #one-col-entry(
   content: [
-    #v(design-highlights-top-margin);#highlights([Co-developed a mobile recommerce platform with instant sales for college students],[Guided team application through the SkyDeck Accelerator Program to pitch to investors],)
+    #v(design-highlights-top-margin);#highlights([Co-developed a mobile recommerce platform using Django, Redis with instant sales for college students],[Guided team application through the SkyDeck Accelerator Program to pitch to investors],)
   ],
 )
 
@@ -611,15 +625,15 @@
 
 
 #one-col-entry(
-  content: [#strong[Programming:] C, Python, Java, JavaScript, R, Solidity, SQL]
+  content: [#strong[Programming:] C\/C++, Linux, MATLAB, Python, Java, JavaScript, R, RISC-V, Solidity, SQL]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Mathematics:] Multivariable calculus, linear algebra, differential equations, probability theory]
+  content: [#strong[Mathematics:] Optimization models, linear algebra, differential equations, probability theory, statistics]
 )
 #v(design-entries-vertical-space-between-entries)
 #one-col-entry(
-  content: [#strong[Languages:] English, German \(fluent, C2 certified\), Greek]
+  content: [#strong[Languages:] English, German \(fluent, C2 certified\), Ancient Greek \(reading proficiency\)]
 )
 
 

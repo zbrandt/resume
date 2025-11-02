@@ -17,8 +17,8 @@ cv:
         end_date:  2027-06
         highlights:
           - 'GPA: 3.9/4.0'
-          - "Awards: Dean's Honors List - College of Letters & Science"
-          - '**Coursework**: Discrete Mathematics, Data Structures, Econometrics, Ancient Greek Studies'
+          - "Awards: Dean's Honors List -- College of Letters & Science"
+          - '**Coursework**: Machine Learning, Efficient Algorithms, Artificial Intelligence, Computer Architecture, Discrete Mathematics, Data Structures, Algorithmic Economics, Econometrics, Ancient Greek'
     experience:
       - company: Stanford, Berkeley Dept. of Economics
         position: Research Assistant
@@ -35,9 +35,9 @@ cv:
         start_date: 2023-09
         end_date: present
         highlights:
-          - Led teams in developing a ticket marketplace for FIFA and a JavaScript VM for Hyperweb Web3
+          - Led teams in developing a ticket marketplace for FIFA, a JavaScript VM for Hyperweb, and Axelar full-stack
           - Secured projects by writing grants and responding to RFPs, growing our presence in blockchain
-          - Oversaw project completion, timelines, deliverables, and client communication
+          - Oversaw project management, SDLC, DevOps, deliverables, and client communication
       - company: Worksheets AI
         position: Summer Intern
         location: '[worksheets.ai](https://www.worksheets.ai/)'
@@ -48,11 +48,11 @@ cv:
           - Designed and integrated AI-powered worksheet generation tools and markets for educators
           - Worked closely with the founding team on scaling the platform in the EdTech space
     projects:
-      - name: ΑΓΩ Beta Treasurer
+      - name: ΑΓΩ Beta Vice President
         date: Fall 2024 - present
         highlights: 
           - Upgraded fraternity house network and internet, created our new website
-          - Managed financial operations, including budgeting, rent and vendor contracts, and banking
+          - Managed financial operations, including >$70,0000 in budgeting, rent, contracting, and banking
       - name: NGordnet Tool
         date: Fall 2024
         highlights:
@@ -66,15 +66,15 @@ cv:
       - name: 'Berkeley SkyDeck'
         date: Summer 2024
         highlights:
-          - Co-developed a mobile recommerce platform with instant sales for college students
+          - Co-developed a mobile recommerce platform using Django, Redis with instant sales for college students
           - Guided team application through the SkyDeck Accelerator Program to pitch to investors
     skills:
       - label: Programming
-        details: C, Python, Java, JavaScript, R, Solidity, SQL
+        details: C/C++, Linux, MATLAB, Python, Java, JavaScript, R, RISC-V, Solidity, SQL
       - label: Mathematics
-        details: Multivariable calculus, linear algebra, differential equations, probability theory
+        details: Optimization models, linear algebra, differential equations, probability theory, statistics
       - label: Languages
-        details: 'English, German (fluent, C2 certified), Greek'
+        details: 'English, German (fluent, C2 certified), Ancient Greek (reading proficiency)'
 design:
   theme: sb2nov
   page:
@@ -112,14 +112,14 @@ design:
     use_icons_for_connections: true
     alignment: center
   section_titles:
-    type: with-parial-line
+    type: with-partial-line
     font_size: 1.4em
     bold: true
     small_caps: false
     line_thickness: 0.5pt
     vertical_space_above: 0.5cm
     vertical_space_below: 0.3cm
-    line_type: with-full-line
+    # line_type: with-full-line
   entries:
     date_and_location_width: 4.15cm
     left_and_right_margin: 0.2cm

@@ -13,8 +13,8 @@
 
 - Aug 2023 – June 2027
 - GPA: 3.9/4.0
-- Awards: Dean's Honors List - College of Letters & Science
-- **Coursework**: Discrete Mathematics, Data Structures, Econometrics, Ancient Greek Studies
+- Awards: Dean's Honors List -- College of Letters & Science
+- **Coursework**: Machine Learning, Efficient Algorithms, Artificial Intelligence, Computer Architecture, Discrete Mathematics, Data Structures, Algorithmic Economics, Econometrics, Ancient Greek
 
 # Experience
 
@@ -30,9 +30,9 @@
 
 - Sept 2023 – present
 - [blockchain.berkeley.edu](https://berkeley.blockchain.edu)
-- Led teams in developing a ticket marketplace for FIFA and a JavaScript VM for Hyperweb Web3
+- Led teams in developing a ticket marketplace for FIFA, a JavaScript VM for Hyperweb, and Axelar full-stack
 - Secured projects by writing grants and responding to RFPs, growing our presence in blockchain
-- Oversaw project completion, timelines, deliverables, and client communication
+- Oversaw project management, SDLC, DevOps, deliverables, and client communication
 
 ## Worksheets AI, Summer Intern
 
@@ -44,11 +44,11 @@
 
 # Projects
 
-## ΑΓΩ Beta Treasurer
+## ΑΓΩ Beta Vice President
 
 - Fall 2024 - present
 - Upgraded fraternity house network and internet, created our new website
-- Managed financial operations, including budgeting, rent and vendor contracts, and banking
+- Managed financial operations, including >$70,0000 in budgeting, rent, contracting, and banking
 
 ## NGordnet Tool
 
@@ -64,11 +64,11 @@
 ## Berkeley SkyDeck
 
 - Summer 2024
-- Co-developed a mobile recommerce platform with instant sales for college students
+- Co-developed a mobile recommerce platform using Django, Redis with instant sales for college students
 - Guided team application through the SkyDeck Accelerator Program to pitch to investors
 
 # Skills
 
-- Programming: C, Python, Java, JavaScript, R, Solidity, SQL
-- Mathematics: Multivariable calculus, linear algebra, differential equations, probability theory
-- Languages: English, German (fluent, C2 certified), Greek
+- Programming: C/C++, Linux, MATLAB, Python, Java, JavaScript, R, RISC-V, Solidity, SQL
+- Mathematics: Optimization models, linear algebra, differential equations, probability theory, statistics
+- Languages: English, German (fluent, C2 certified), Ancient Greek (reading proficiency)
