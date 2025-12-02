@@ -42,31 +42,23 @@
 - Designed and integrated AI-powered worksheet generation tools and markets for educators
 - Worked closely with the founding team on scaling the platform in the EdTech space
 
+## ΑΓΩ Beta Fraternity, Beta Vice President
+
+- Aug 2024 – present
+- Berkeley, CA
+- Upgraded fraternity house network and internet infrastructure, created new organizational website
+- Managed financial operations, including >$70,000 in budgeting, rent, contracting, and banking
+
 # Projects
 
-## ΑΓΩ Beta Vice President
-
-- Fall 2024 - present
-- Upgraded fraternity house network and internet, created our new website
-- Managed financial operations, including >$70,0000 in budgeting, rent, contracting, and banking
-
-## NGordnet Tool
-
-- Fall 2024
-- Developed a linguistic analysis tool leveraging WordNet and historical word frequency data
-- Built visualizations to explore synset relationships and language evolution
-
-## World-Exploration Game Engine
-
-- Fall 2024
-- Created a modular and extensible 2D tile-based world exploration engine in Java
-
-## Berkeley SkyDeck
-
-- Summer 2024
-- Co-developed a mobile recommerce platform using Django, Redis with instant sales for college students
-- Guided team application through the SkyDeck Accelerator Program to pitch to investors
-
+- AI Search & Game Trees: Implemented DFS, BFS, UCS, A* with heuristics for pathfinding; minimax, alpha-beta pruning, expectimax for multi-agent games
+- Reinforcement Learning Agents: Built value iteration, Q-learning, and approximate Q-learning agents with feature extraction
+- Probabilistic Inference: Developed Bayes Nets with variable elimination, HMMs, exact inference, and particle filtering for tracking
+- Neural Networks for Classification: Created PyTorch models for digit classification, RNN for language ID, CNNs with custom convolution, attention mechanisms
+- Snake Game Engine (C): Built playable snake game in C with dynamic memory management, file I/O, and complete game state handling
+- RISC-V Classifier & CPU: Wrote RISC-V assembly for digit classification; designed pipelined CPU in Logisim with hazard detection and forwarding
+- NGordnet Linguistic Analysis: Built web tool analyzing Google NGrams data with custom data structures, graph traversal for hyponym queries, TimeSeries visualization
+- Berkeley SkyDeck: Co-developed mobile recommerce platform using Django and Redis; pitched to investors through SkyDeck Accelerator
 # Skills
 
 - Programming: C/C++, Linux, MATLAB, Python, Java, JavaScript, R, RISC-V, Solidity, SQL

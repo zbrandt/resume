@@ -555,70 +555,59 @@
   ],
 )
 
+#v(design-entries-vertical-space-between-entries)
+#two-col-entry(
+  left-content: [
+    #strong[ΑΓΩ Beta Fraternity]
+
+#emph[Beta Vice President]
+  ],
+  right-content: [
+    #emph[Aug 2024 – present]
+  ],
+)
+#one-col-entry(
+  content: [
+    #v(design-highlights-top-margin);#highlights([Upgraded fraternity house network and internet infrastructure, created new organizational website],[Managed financial operations, including >\$70,000 in budgeting, rent, contracting, and banking],)
+  ],
+)
+
 
 
 == Projects
 
 
-#two-col-entry(
-  left-content: [
-    #strong[ΑΓΩ Beta Vice President]
-  ],
-  right-content: [
-    #emph[Fall 2024 - present]
-  ],
-)
 #one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Upgraded fraternity house network and internet, created our new website],[Managed financial operations, including >\$70,0000 in budgeting, rent, contracting, and banking],)
-  ],
+  content: [#strong[AI Search & Game Trees:] Implemented DFS, BFS, UCS, A#sym.ast.basic with heuristics for pathfinding; minimax, alpha-beta pruning, expectimax for multi-agent games]
 )
-
 #v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[NGordnet Tool]
-  ],
-  right-content: [
-    #emph[Fall 2024]
-  ],
-)
 #one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Developed a linguistic analysis tool leveraging WordNet and historical word frequency data],[Built visualizations to explore synset relationships and language evolution],)
-  ],
+  content: [#strong[Reinforcement Learning Agents:] Built value iteration, Q-learning, and approximate Q-learning agents with feature extraction]
 )
-
 #v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[World-Exploration Game Engine]
-  ],
-  right-content: [
-    #emph[Fall 2024]
-  ],
-)
 #one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Created a modular and extensible 2D tile-based world exploration engine in Java],)
-  ],
+  content: [#strong[Probabilistic Inference:] Developed Bayes Nets with variable elimination, HMMs, exact inference, and particle filtering for tracking]
 )
-
 #v(design-entries-vertical-space-between-entries)
-#two-col-entry(
-  left-content: [
-    #strong[Berkeley SkyDeck]
-  ],
-  right-content: [
-    #emph[Summer 2024]
-  ],
-)
 #one-col-entry(
-  content: [
-    #v(design-highlights-top-margin);#highlights([Co-developed a mobile recommerce platform using Django, Redis with instant sales for college students],[Guided team application through the SkyDeck Accelerator Program to pitch to investors],)
-  ],
+  content: [#strong[Neural Networks for Classification:] Created PyTorch models for digit classification, RNN for language ID, CNNs with custom convolution, attention mechanisms]
 )
-
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Snake Game Engine \(C\):] Built playable snake game in C with dynamic memory management, file I\/O, and complete game state handling]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[RISC-V Classifier & CPU:] Wrote RISC-V assembly for digit classification; designed pipelined CPU in Logisim with hazard detection and forwarding]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[NGordnet Linguistic Analysis:] Built web tool analyzing Google NGrams data with custom data structures, graph traversal for hyponym queries, TimeSeries visualization]
+)
+#v(design-entries-vertical-space-between-entries)
+#one-col-entry(
+  content: [#strong[Berkeley SkyDeck:] Co-developed mobile recommerce platform using Django and Redis; pitched to investors through SkyDeck Accelerator]
+)
 
 
 == Skills
