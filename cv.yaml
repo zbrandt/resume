@@ -1,0 +1,106 @@
+cv:
+  name: Zachary Brandt
+  # location: Berkeley, CA
+  email: zbrandt@berkeley.edu
+  social_networks:
+    - network: LinkedIn
+      username: zacharypbrandt
+    - network: GitHub
+      username: zbrandt
+  sections:
+    education:
+      - institution: University of California, Berkeley
+        area: Economics, Computer Science
+        degree: B.A.
+        start_date: 2023-08
+        end_date:  2027-06
+        location: Berkeley, CA
+        highlights:
+          - 'GPA: 3.9/4.0'
+          - "Awards: Dean's Honors List -- College of Letters & Science"
+    experience:
+      - company: Stanford, Deptartment of Economics
+        position: Research Assistant
+        location: Palo Alto, CA
+        start_date: 2024-02
+        end_date: 2024-08
+        highlights:
+          - Conducted econometric analysis and reserach on cross-sector firm 
+            market power
+          - Led data wrangling, EDA, and visualization on national employment
+            datasets
+          - Contributed insights to burgeoning literature on industrial 
+            organization
+      - company: Blockchain at Berkeley
+        position: Project Manager
+        location: Berkeley, CA
+        start_date: 2023-09
+        end_date: present
+        highlights:
+          - Led teams in developing solutions for blockchain-native firms and 
+            others like FIFA
+          - Oversaw project management, deliverables, and communication us and 
+            our clients
+          - Built prize-winning applications and industry networking at global 
+            hackathons
+      - company: ΑΓΩ, Beta Chapter
+        position: Vice President
+        location: Berkeley, CA
+        start_date: 2024-08
+        end_date: present
+        highlights:
+          - Resurrected chapter from just two active members to 18 living in 
+            house
+          - Budget and manage over $70,000 in expenses, deposits, and savings 
+            per semester
+    projects:
+      - name: Machine Learning
+        date: 2025-11
+        summary: Neural networks in RISC-V assembly code to classify digits, 
+          language
+        highlights:
+          - Implemented non-linear activation functions and matrix multiplication
+            in assembly 
+          - Optimized convolutional networks via SIMD and multi-threaded 
+            parallelization in C
+      - name: Computer Architecture
+        date: 2025-11
+        summary: Built a piplined CPU that supports RISC-V instructions
+        highlights:
+          - Designed ALU, RegFile, and Immediates in Logisim for executing
+            instructions
+          - Pipelined datapath into multiple stages while handling control and
+            data hazards
+      - name: Reinforcement Learning
+        date: 2025-10
+        summary: Implemented value iteration and Q-learning agents with robot 
+          controller
+        highlights:
+          - Created an MDP and feature extractor for testing agents in learning
+            environments 
+    skills:
+      - label: Programming
+        details: C/C++, Linux, MATLAB, Python, Java, JavaScript, R, RISC-V, 
+          Scheme, Solidity, SQL
+      - label: Mathematics
+        details: Optimization, discrete, probability, linear algebra, 
+          differential equations, multivariable, statistics
+      - label: Languages
+        details: 'English, German (C2 proficiency certified), Ancient Greek'
+
+settings:
+  current_date: '2025-12-03' 
+  render_command:
+    design: ./design.yaml 
+    locale: ./locale.yaml 
+    typst_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.typ 
+    pdf_path: ./NAME_IN_SNAKE_CASE_CV.pdf
+    markdown_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.md
+    html_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.html
+    png_path: rendercv_output/NAME_IN_SNAKE_CASE_CV.png
+    dont_generate_markdown: true
+    dont_generate_html: true
+    dont_generate_typst: false
+    dont_generate_pdf: false
+    dont_generate_png: true
+  bold_keywords: []
