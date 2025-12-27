@@ -39,7 +39,7 @@ cv:
         highlights:
           - Led teams in developing solutions for blockchain-native firms and 
             others like FIFA
-          - Oversaw project management, deliverables, and communication us and 
+          - Oversaw project management, deliverables, and communication with 
             our clients
           - Built prize-winning applications and industry networking at global 
             hackathons
@@ -49,10 +49,18 @@ cv:
         start_date: 2024-08
         end_date: present
         highlights:
-          - Resurrected chapter from just two active members to 18 living in 
-            house
-          - Budget and manage over $70,000 in expenses, deposits, and savings 
-            per semester
+          - Resurrected chapter from just two active members to 18 living in-house
+          - Budgeted, managed over $70,000 in expenses, deposits, and savings 
+            each semester
+      - company: FRC 8, Paly Robotics
+        position: Subteam Captain
+        location: Palo Alto, CA
+        start_date: 2019-09
+        end_date: 2023-06
+        highlights:
+          - Created mobile & web apps to collect competition data for 
+            creating match strategies
+
     projects:
       - name: Machine Learning
         date: 2025-11
